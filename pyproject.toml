@@ -1,0 +1,9 @@
+[project]
+name = "amazon-mcp-server"
+version = "1.0.0"
+description = "Amazon MCP Server - AI agent access to product data, prices, and reviews via MCP"
+requires-python = ">=3.12"
+dependencies = ["mcp>=1.0.0"]
+
+[project.scripts]
+amazon-mcp-server = "scraper:main"
