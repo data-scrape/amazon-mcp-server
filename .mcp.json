@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "amazon": {
+      "command": "uvx",
+      "args": [
+        "amazon-mcp-server"
+      ]
+    }
+  }
+}
